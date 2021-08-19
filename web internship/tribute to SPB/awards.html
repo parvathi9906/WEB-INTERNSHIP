@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Tribute to SPB</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="vid.mp4" muted loop autoplay></video>
+    <div style="align-items:left">
+       <div style="position:relative; text-align: center; ">
+        <img  style=" background-size: cover;
+        background-position: center;" src="images/5.png" width="100%">
+    </div>
+    </div>
+    <div class="text" style="position: relative; ">
+      <h2>Awards won by S.P.B</h2> 
+         <p>Padma Shri by Government of India</p>
+         <p>Padma Bhushan by Government of India</p>
+         <p>Karnataka Rajyothsava Award by Government of Karnataka</p>
+         <p>Filmfare Awards South [Won 3 times Best Male Playback Singer]</p>
+         <p>SIIMA Lifetime Achievement Award</p>
+         <p>Kala Pradarshini Ghantasala Puraskar</p>
+       </div>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><b><a href="index.html">Home</a></b></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    })
+  </script>
+  </body>
+  </html>

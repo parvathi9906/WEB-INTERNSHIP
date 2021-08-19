@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>tables in css</title>
+        <style>
+            table,th,td {
+                border:1px solid rgb(19, 18, 18);
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+
+            }
+            th {
+                background-color: tomato;
+                padding: 10px;
+                text-align: left;
+                border-bottom:3px solid  red;
+            }
+            td {
+                height: 80px;
+                text-align: center;
+                vertical-align: super;
+                padding: 20px;
+                text-align: left;
+                border-bottom:3px solid  red;
+            }
+            tr:hover {
+                background-color: rgb(173, 113, 113) ;
+            }
+
+            tr:nth-child(even){
+                background-color: teal;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>this is the simple table</h2>
+        <table>
+            <tr>
+                <th>name of the player</th>
+                <th>name of the team</th>
+                <th>height</th>
+                <th>age</th>
+            </tr>
+            
+            <tr>
+                <td>virat</td>
+                <td>rcb</td>
+                <td>5'9</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>dhoni</td>
+                <td>csk</td>
+                <td>6'1</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>bhovi</td>
+                <td>srh</td>
+                <td>6'1</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>hardic</td>
+                <td>mi</td>
+                <td>6'1</td>
+                <td>27</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Tribute to SPB</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="vid.mp4" muted loop autoplay></video>
+    <div style="align-items:left">
+       <div style="position:relative; text-align: center; ">
+        <img  style=" background-size: cover;
+        background-position: center;" src="images/2.png" width="100%">
+    </div>
+    </div>
+    <div class="text" style="position: relative; ">
+      <h2>Famous Songs of S.P.B</h2> 
+         <p>Naguva Nayana [Pallavi Anu Pallavi - Kannada - 1983]</p>
+         <p>Ee Bhoomi Bannada Buguri [Mahaakshatriya - Kannada - 2014]</p>
+         <p>Ee Sundara [Amrutha Varshini - Kannada - 1996]</p>
+         <p>Kaadhak Rojave [Roja - Tamil - 1992]</p>
+         <p>En Kadhalae[Duet - Tamil - 1994]</p>
+         <p>James Bond Super Power [Adayalam - Malayalam - 2021]</p>
+         <p>Dil Deewana [Maine Pyar Kiya - Hindi - 1989]</p>
+         <p>Suvvi Suvvi [Chuttalabbai - Telugu - 2015]</p>
+       </div>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    })
+  </script>
+  </body>
+  </html>

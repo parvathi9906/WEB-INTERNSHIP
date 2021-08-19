@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Tribute to SPB</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="vid.mp4" muted loop autoplay></video>
+    <div style="align-items:left">
+       <div style="position:relative; text-align: center; ">
+        <img  style=" background-size: cover;
+        background-position: center;" src="images/3.png" width="100%">
+    </div>
+    </div>
+    <div class="text1" style="position: relative; ">
+      <h2>Movies in S.P.B as actor</h2>
+      <p>Muddina Mava [Kannada]</p>
+      <p>Tirugu Bhana [Kannada]</p> 
+      <p>Priyamaanavale [Tamil]</p>
+      <p>Moone Moonu Varthai [Tamil]</p>
+      <p>Shakti [Telugu]</p>
+      <p>Mithunam [Telugu]</p>
+      </div>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    })
+  </script>
+  </body>
+  </html>

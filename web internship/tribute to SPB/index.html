@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Tribute to SPB</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="vid.mp4" muted loop autoplay></video>
+    <div style="position: relative;">
+        <img src="images/1.png" width="100%">
+    </div>
+    <div class="text" style="position: relative;">
+      <h3>Tribute to</h3> 
+      <h3>S.P.Balasubrahmanyam</h3>
+      <audio controls autoplay loop id="audio">
+        <source src="Kelade Nimageega _ Geetha Movie Songs _ ilayaraja _ Shankar Nag _ Kannada Old Songs AETrim1616490596147.mp3" type="audio/mpeg">
+          <p>If you can read this, your browser does not support the audio element.</p>
+          </audio>
+      </div>  
+</section>
+  <div class="menu">
+    <ul>
+      <li><b><a href="index.html">Home</a></b></li>
+      <li><b><a href="background.html">Background</a></b></li>
+      <li><b><a href="songs.html">Songs</a></b></li>
+      <li><b><a href="movies.html">Movies</a></b></li>
+      <li><b><a href="awards.html">Awards</a></b></li>
+    </ul>
+  </div>
+  <script>
+      const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+</body>
+  </html>

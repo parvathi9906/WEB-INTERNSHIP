@@ -1,0 +1,51 @@
+<html>
+<head>
+  <title>Tribute to SPB</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle"></div> 
+    </header>
+    <video src="vid.mp4" muted loop autoplay></video>
+    <div style="align-items:left">
+       <div style="position:relative; text-align: center; ">
+        <img  style=" background-size: cover;
+        background-position: center;" src="images/4.png" width="100%" height="100%">
+    </div>
+    </div>
+    <div class="text1" style="position: relative; ">
+     <h2>S. P. BALASUBRAHMANYAM </h2> 
+        <h3>Singer . Actor . Music director . Dubbing artist . Film producer</h3>
+        <p>Panditaradhyula Balasubrahmanyam also referred to as S. P. B was an Indian musician, playback
+            singer, music director, actor, dubbing artist, and film producer who worked predominantly in Telugu, Tamil,
+            Kannada, Hindi, and Malayalam films. Widely regarded as one of the greatest singers of India, He won six
+            National Film Awards for Best Male Playback Singer for his works in four different languages; Telugu, Tamil,
+            Kannada, and Hindi. According to some sources, he held the Guinness World Record for recording the highest
+            number of songs by a singer with over 40,000 songs. He recorded 21 songs in Kannada for the composer Upendra
+            Kumar in Bengaluru from 9 am to 9 pm on 8 February 1981. In addition, he recorded 19 songs in Tamil and 16
+            songs in Hindi in a day, which has also been called a record.</p>
+          <p>Even when he talks, he seems to sing. In whatever language you’ve heard him, and whatever kind of song you
+            love him for, there’s no way you wouldn’t have heard an S.P. Balasubrahmanyam song if you’re an Indian,
+            because he’s sung more than 40,000!.Despite a fabulous musical career spanning 49 years in the Telugu, Tamil,
+            Kannada, Hindi, and Malayalam film industries, SPB remains down to earth.</p>
+      </div> 
+</section>
+<div class="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+</div>
+<script>
+  const menuToggle = document.querySelector('.toggle');
+  const showcase = document.querySelector('.showcase');
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+  })
+</script>
+</body>
+</html>
